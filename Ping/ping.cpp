@@ -6,9 +6,9 @@
 //  Copyright © 2016年 王落凡. All rights reserved.
 //
 
-#include "ping.hpp"
-#include "ip_hdr.hpp"
-#include "icmp_hdr.hpp"
+#include "ping.h"
+#include "ip_hdr.h"
+#include "icmp_hdr.h"
 #include <stdio.h>
 #include <netdb.h>
 #include <arpa/inet.h>
@@ -28,7 +28,7 @@ extern char host[BUFSIZ];
 extern int ttl, count, timeout, packagesize;
 static int seqNum = 0, received = 0;
 static float min = UINT_MAX, avg = 0, max = 0;
-static struct timeval btv{0, 0}, etv{0, 0};
+static struct timeval btv = {0, 0}, etv = {0, 0};
 
 #define IP_ADDR_LEN 20
 #define SAFEFREE(pointer) do {  \
@@ -170,7 +170,7 @@ void ping(void)
         
         char recvBuf[BUFSIZ] = {0};
         //设置超时
-        struct timeval _tout {timeout, 0};
+        struct timeval _tout = {timeout, 0};
         
         ssize_t bufLen = sendto(fd, icmp_data, dataLen, 0, (struct sockaddr*)&addr, (socklen_t)sizeof(struct sockaddr));
         //记录数据报发出时间

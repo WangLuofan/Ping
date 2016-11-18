@@ -29,11 +29,11 @@
 		B389FAAB1DD4573400F8BBFD /* Ping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ping; sourceTree = BUILT_PRODUCTS_DIR; };
 		B389FAAE1DD4573400F8BBFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B389FABB1DD4580300F8BBFD /* ip_hdr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ip_hdr.cpp; sourceTree = "<group>"; };
-		B389FABC1DD4580300F8BBFD /* ip_hdr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ip_hdr.hpp; sourceTree = "<group>"; };
+		B389FABC1DD4580300F8BBFD /* ip_hdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip_hdr.h; sourceTree = "<group>"; };
 		B389FABE1DD4581100F8BBFD /* icmp_hdr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = icmp_hdr.cpp; sourceTree = "<group>"; };
-		B389FABF1DD4581100F8BBFD /* icmp_hdr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = icmp_hdr.hpp; sourceTree = "<group>"; };
+		B389FABF1DD4581100F8BBFD /* icmp_hdr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icmp_hdr.h; sourceTree = "<group>"; };
 		B389FAC21DD464DE00F8BBFD /* ping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ping.cpp; sourceTree = "<group>"; };
-		B389FAC31DD464DE00F8BBFD /* ping.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ping.hpp; sourceTree = "<group>"; };
+		B389FAC31DD464DE00F8BBFD /* ping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ping.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				B389FAAE1DD4573400F8BBFD /* main.cpp */,
-				B389FAC31DD464DE00F8BBFD /* ping.hpp */,
+				B389FAC31DD464DE00F8BBFD /* ping.h */,
 				B389FAC21DD464DE00F8BBFD /* ping.cpp */,
-				B389FABC1DD4580300F8BBFD /* ip_hdr.hpp */,
+				B389FABC1DD4580300F8BBFD /* ip_hdr.h */,
 				B389FABB1DD4580300F8BBFD /* ip_hdr.cpp */,
-				B389FABF1DD4581100F8BBFD /* icmp_hdr.hpp */,
+				B389FABF1DD4581100F8BBFD /* icmp_hdr.h */,
 				B389FABE1DD4581100F8BBFD /* icmp_hdr.cpp */,
 			);
 			path = Ping;

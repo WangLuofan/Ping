@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "ping.hpp"
+#include "ping.h"
 
 
 char host[BUFSIZ] = {0};

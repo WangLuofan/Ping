@@ -6,7 +6,7 @@
 //  Copyright © 2016年 王落凡. All rights reserved.
 //
 
-#include "ip_hdr.hpp"
+#include "ip_hdr.h"
 
 ip_hdr::ip_hdr(const char* buf)
 {
